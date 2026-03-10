@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="section1">
+      <header>
+    <div class="container header-container">
+      <img src="https://i.ibb.co/HLc4zwvz/Whats-App-Image-2025-05-25-at-01-29-32.jpg" class="profile-pic" />
+      <div>
+        <h1>Hello, I'm <span class="highlight">Harshad S. Kale</span></h1>
+        <p>AI Developer | Creative Coder | Tech Enthusiast  | Frontend & Backend Developer</p>
+        <p class="city">From India
+          <img src="https://i.ibb.co/8D8S8dhn/Flag-of-India-svg.webp" class="flag"/></p>
+      </div>
+    </div>
+  </header>
+
+  <section class="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <p>HTML</p>
+        <div class="skill-bar"><div class="fill" style="width: 100%;"></div></div>
+      </div>
+      <div class="skill">
+        <p>CSS</p>
+        <div class="skill-bar"><div class="fill" style="width: 100%;"></div></div>
+      </div>
+      <div class="skill">
+        <p>Python</p>
+        <div class="skill-bar"><div class="fill" style="width: 85%;"></div></div>
+      </div>
+      <div class="skill">
+        <p>C++</p>
+        <div class=" skill-bar"><div class="fill" style="width: 70%;"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="achievements">
+    <h2>Achievements</h2>
+    <div class="achievements-container">
+      <button class="card" onclick="display('sectionGoogleCertificate')">
+        <h3>Google Certified Developer</h3>
+        <p >Earned in 2023 for excellence in Web Development.</p>
+      </button>
+      <button class="card" onclick="display('sectionEarnDifferentTypeOfSkill')">
+        <h3>Earn Different Type of Skill</h3>
+        <p>Built a real-time collaboration tool in 48 hours.</p>
+      </button>
+      <button class="card" onclick="display('sectionMicrosoftCertificate')">
+        <h3>MicroSoft Certificates</h3>
+        <p>Getting Badges and Certificates in AI collaborat with Microsoft.</p>
+      </button>
+      <button class="card" onclick="display('sectionlPublishAuthor')">
+        <h3>Published Author</h3>
+        <p>Wrote articles on Frontend Technologies in tech blogs.</p>
+      </button>
+      <button class="card" onclick="display('sectionProjects')">
+        <h3>Projects</h3>
+        <p>Built a real-time Projects</p>
+      </button>
+      <button class="card" onclick="display('sectionlProfiles')">
+        <h3>Profiles</h3>
+        <p>Linkedin & Social Media Accounts</p>
+      </button>
+    </div>
+  </section>
+  <footer>
+    <p>© 2025 ASTUTE Technology All Rights Reserved.</p>
+  </footer>
+  
+    </div>
+    <div id="sectionGoogleCertificate" class=
+"card">
+        <h3>Google Certificates</h3>
+      <div class="d-flex flex-row">
+      <img src=""/>
+      </div>
+      <button class="btn btn-primary" onclick="display('section1')">
+        Back
+      </button>
+    </div>
+    <div id="sectionEarnDifferentTypeOfSkill" class="card">
+      <h3>My Skill</h3>
+      <button class="btn btn-primary" onclick="display('section1')">
+        Back
+      </button>
+    </div>
+    
+    <div id="sectionMicrosoftCertificate" class="card">
+      <h3>Microsoft Certificate</h3>
+      <button class="btn btn-primary" onclick="display('section1')">
+        Back
+      </button>
+    </div>
+    
+    <div id="sectionlPublishAuthor" class="card">
+      <h3>YouTube Videos</h3>
+      <a target="-blank-" href="https://www.youtube.com/watch?v=MW4KxDMCH_g">A</a>
+      <button class="btn btn-primary" onclick="display('section1')">
+        Back
+      </button>
+    </div>
+    
+    <div id="sectionProjects" class="card1">
+      <h3>Projects</h3>
+      <h2> Basic Operations Projects</h2>
+      <div>
+      <img src=""/>
+      <img src=""/>
+      <img src=""/>
+      </div>
+      <button class="btn btn-primary" onclick="display('section1')">
+        Back
+      </button>
+    </div>
+    <div id="sectionlProfiles" class="card">
+      <h3>Accounts</h3>
+      <a target="__blank__" href="https://www.linkedin.com/notifications/?filter=all">Linkedin</a>
+      
+      <a target="__blank__" href="https://www.instagram.com/">Instagram</a>
+      <div>
+      <button class="btn btn-primary" onclick="display('section1')">
+        Back
+      </button>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+    ></script>
+  </body>a
+</html>
