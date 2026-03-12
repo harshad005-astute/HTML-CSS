@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Restaurant Menu</title>
+</head>
+<body>
+
+<h1>Food Menu</h1>
+
+<h2>Starters</h2>
+<ul>
+<li>Veg Sandwich - ₹50</li>
+<li>French Fries - ₹70</li>
+</ul>
+
+<h2>Main Course</h2>
+<ul>
+<li>Veg Burger - ₹80</li>
+<li>Pizza - ₹120</li>
+</ul>
+
+<h2>Drinks</h2>
+<ul>
+<li>Cold Coffee - ₹60</li>
+<li>Fresh Juice - ₹50</li>
+</ul>
+
+</body>
+</html>
