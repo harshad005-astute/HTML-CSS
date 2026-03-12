@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>To Do List</title>
+</head>
+<body>
+
+<h1>My To Do List</h1>
+
+<input type="text" placeholder="Enter a task">
+<button>Add Task</button>
+
+<ul>
+<li>Study HTML</li>
+<li>Complete Homework</li>
+<li>Exercise</li>
+</ul>
+
+</body>
+</html>
