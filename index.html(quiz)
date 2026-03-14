@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Quiz Exam</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="quiz-container">
+
+<h1>Online Quiz Exam</h1>
+
+<div id="quiz">
+
+<div class="question" id="question">
+Question text
+</div>
+
+<div class="options">
+<label>
+<input type="radio" name="answer" value="a">
+<span id="a_text"></span>
+</label>
+
+<label>
+<input type="radio" name="answer" value="b">
+<span id="b_text"></span>
+</label>
+
+<label>
+<input type="radio" name="answer" value="c">
+<span id="c_text"></span>
+</label>
+
+<label>
+<input type="radio" name="answer" value="d">
+<span id="d_text"></span>
+</label>
+
+</div>
+
+<button id="submit">Next</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
