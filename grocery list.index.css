@@ -1,0 +1,21 @@
+
+.grocery-list-container {
+    background-color: #03254c;
+    height: 100vh;
+    padding: 30px;
+}
+
+.grocery-list-heading {
+    text-align: center;
+    color: #fff;
+    font-family: "roboto";
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.list-item-container {
+    background-color: #f5f9fd;
+    border-radius: 6px;
+    padding: 30px;
+}
