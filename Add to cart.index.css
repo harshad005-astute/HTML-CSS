@@ -1,0 +1,14 @@
+
+.heading {
+    font-family: 'roboto';
+    text-align: center;
+}
+
+.cart-item-heading {
+    font-size: 20px;
+    text-align: center;
+}
+
+.cart-item-container {
+    text-align: center;
+}
