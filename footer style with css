@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Footer Example</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    footer a {
+      color: #00aced;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div style="padding:20px;">
+    <h1>My Website</h1>
+    <p>Content goes here...</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 MyWebsite | 
+      <a href="#">Privacy Policy</a> | 
+      <a href="#">Contact</a>
+    </p>
+  </footer>
+
+</body>
+</html>
