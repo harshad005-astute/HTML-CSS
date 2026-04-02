@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenvy | Personalized Nutrition</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Hero / Form Section -->
+        <section id="form-section" class="active">
+            <header>
+                <h1>Z<span class="gradient-text">envy</span></h1>
+                <p>Curating your perfect daily diet</p>
+                <button type="button" id="view-history-btn" class="btn-secondary"
+                    style="margin-top: 1rem; margin-bottom:10px;">View
+                    Saved Plans</button>
+            </header>
+
+            <form id="diet-form" class="glass-panel">
+                <div class="form-grid">
+                    <div class="input-group">
+                        <label for="age">Age</label>
+                        <input type="number" id="age" required min="10" max="120" placeholder="e.g. 28">
+                    </div>
+                    <div class="input-group">
+                        <label for="gender">Gender</label>
+                        <select id="gender" required>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="weight">Weight (kg)</label>
+                        <input type="number" id="weight" required min="30" max="300" placeholder="e.g. 70">
+                    </div>
+                    <div class="input-group">
+                        <label for="height">Height (cm)</label>
+                        <input type="number" id="height" required min="100" max="250" placeholder="e.g. 175">
+                    </div>
+                </div>
+
+                <div class="input-group full-width">
+                    <label>Fitness Goal</label>
+                    <div class="radio-group" id="goal">
+                        <input type="radio" id="goal-loss" name="goal" value="loss" required>
+                        <label for="goal-loss" class="radio-card">Weight Loss</label>
+
+                        <input type="radio" id="goal-maintain" name="goal" value="maintain" checked>
+                        <label for="goal-maintain" class="radio-card">Maintain</label>
+
+                        <input type="radio" id="goal-gain" name="goal" value="gain">
+                        <label for="goal-gain" class="radio-card">Muscle Gain</label>
+                    </div>
+                </div>
+
+                <div class="input-group full-width">
+                    <label>Dietary Preference</label>
+                    <div class="radio-group" id="preference">
+                        <input type="radio" id="pref-any" name="preference" value="any" checked>
+                        <label for="pref-any" class="radio-card">Anything</label>
+
+                        <input type="radio" id="pref-veg" name="preference" value="veg">
+                        <label for="pref-veg" class="radio-card">Vegetarian</label>
+
+                        <input type="radio" id="pref-vegan" name="preference" value="vegan">
+                        <label for="pref-vegan" class="radio-card">Vegan</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-primary">Generate Diet Plan</button>
+            </form>
+        </section>
+
+        <!-- Dashboard Section -->
+        <section id="dashboard-section" class="hidden">
+            <header>
+                <div class="header-nav">
+                    <h2>Your <span class="gradient-text">Zenvy</span> Plan</h2>
+                    <div style="display: flex; gap: 0.5rem; align-items: center;">
+                        <button id="save-plan-btn" class="btn-primary"
+                            style="margin: 0; padding: 0.75rem 1.5rem; width: auto;">Save</button>
+                        <button id="back-btn" class="btn-secondary">Back</button>
+                    </div>
+                </div>
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <span class="stat-label">Daily Target</span>
+                        <span class="stat-value" id="calorie-target">2,000</span>
+                        <span class="stat-unit">kcal</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">Goal</span>
+                        <span class="stat-value" id="goal-display">Maintain</span>
+                        <span class="stat-unit">Weight</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="timeline" id="meal-timeline">
+                <!-- Meals will be injected here via JS -->
+            </div>
+        </section>
+
+        <!-- History Section -->
+        <section id="history-section" class="hidden">
+            <header>
+                <div class="header-nav">
+                    <h2>Saved <span class="gradient-text">Plans</span></h2>
+                    <button id="history-back-btn" class="btn-secondary">Back</button>
+                </div>
+            </header>
+            <div class="timeline" id="history-list">
+                <!-- Saved plans will be injected here -->
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>&copy; 2026 Zenvy. All rights reserved.</p>
+            <p style="margin-top: 0.5rem; font-size: 0.8rem; opacity: 0.7;">Made with ASTUTE Tech</p>
+        </footer>
+    </div>
+
+    <!-- Background decorative elements -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
