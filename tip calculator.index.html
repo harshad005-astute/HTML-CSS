@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <div class="tip-calculator-container pb-5 text-center">
+        <h1 class="mt-4 mb-4">Tip Calculator</h1>
+
+        <div class="container">
+            <div class="row">
+
+                <!-- BILL AMOUNT -->
+                <div class="col-12 col-md-6 mb-4">
+                    <p>BILL AMOUNT</p>
+                    <input type="text" id="billAmount" class="form-control" />
+                </div>
+
+                <!-- TIP % -->
+                <div class="col-12 col-md-6 mb-4">
+                    <p>PERCENTAGE TIP</p>
+                    <input type="text" id="percentageTip" class="form-control" />
+                </div>
+
+                <!-- TIP AMOUNT -->
+                <div class="col-12 col-md-6 mb-4">
+                    <p>TIP AMOUNT</p>
+                    <input type="text" id="tipAmount" class="form-control" readonly />
+                </div>
+
+                <!-- TOTAL -->
+                <div class="col-12 col-md-6 mb-4">
+                    <p>TOTAL</p>
+                    <input type="text" id="totalAmount" class="form-control" readonly />
+                </div>
+
+                <!-- BUTTON -->
+                <div class="col-12 mt-4">
+                    <button class="btn btn-info" id="calculateButton">
+                        CALCULATE
+                    </button>
+                    <p id="errorMessage" class="text-danger mt-2"></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
