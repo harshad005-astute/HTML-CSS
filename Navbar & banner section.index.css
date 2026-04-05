@@ -1,0 +1,77 @@
+.navbar-banner-section {
+    background-image: url("https://assets.ccbp.in/frontend/responsive-website/landing-section-bg.png");
+    background-size: cover;
+    height: 100vh;
+    background-color: #0c0521;
+}
+
+.banner-heading {
+    font-family: "Roboto";
+    color: white;
+    font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #0c0521;
+}
+
+.nav {
+    background-color: #0c0521;
+}
+
+.d-logo {
+    height: 30px;
+    width: 150px;
+}
+
+.icon-color {
+    background-color: #fff;
+}
+
+#navbarItem1 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+#navbarItem2 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+#navbarItem3 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+#navbarItem4 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+span {
+    color: #ffDD49;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner-caption {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.custom-button {
+    color: #0C0521;
+    background-color: #FFDDA9;
+    height: 45px;
+    width: 130px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border-width: 0px;
+    font-weight: bold;
+    margin: auto;
+}
