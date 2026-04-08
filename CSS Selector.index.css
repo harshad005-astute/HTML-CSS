@@ -1,0 +1,14 @@
+h1{
+    color:#0366fc;
+    font-family:"roboto";
+}
+.description{
+    font-family:"roboto";
+    color:black;
+    font-weight:bold;
+}
+#aboutTwitter{
+    color:#616e7c;
+    font-style:italic;
+    font-family:"roboto";
+}
