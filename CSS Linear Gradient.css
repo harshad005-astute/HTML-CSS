@@ -1,0 +1,29 @@
+.linear-gradient-background1{
+    height:20vh;
+    color:white;
+    background-image:linear-gradient(#8a2387, #e94057, #9e82b4);
+}
+.linear-gradient-background2{
+    height:20vh;
+    
+    color:white;
+    background-image:linear-gradient(to top,#8a2387, #e94057, #9e82b4);
+}
+.linear-gradient-background3{
+    height:20vh;
+    width:50vw;
+    color:white;
+    background-image:linear-gradient(to bottom,#8a2387, #e94057, #9e82b4);
+}
+.linear-gradient-background4{
+    height:20vh;
+    width:50vw;
+    color:white;
+    background-image:linear-gradient(to left,#8a2387, #e94057, #9e82b4);
+}
+.linear-gradient-background5{
+    width:50vw;
+    color:white;
+    height:20vh;
+    background-image:linear-gradient(to right,#8a2387, #e94057, #9e82b4);
+}
