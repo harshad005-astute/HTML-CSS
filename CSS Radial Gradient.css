@@ -1,0 +1,14 @@
+.radial-gradient-background1 {
+    background-image: radial-gradient(#00c898, #020203);
+    height: 50vh;
+    width: 50vw;
+}
+
+.radial-gradient-background2 {
+    height:50vh;
+    width:50vw;
+    background-image: radial-gradient(#bb64ff, #fd8941, #8a2387, #ff697e);
+}
+.heading{
+    font-size:20px;
+}
